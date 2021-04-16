@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// book type definition 
 type book struct {
 	name  string
 	price float64

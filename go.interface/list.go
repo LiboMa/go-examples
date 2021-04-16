@@ -6,6 +6,7 @@ type printer interface {
 	print()
 }
 
+// abstract layer for book, game, and movie type
 type list []printer
 
 func (l list) print() {
